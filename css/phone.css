@@ -1,0 +1,62 @@
+#navbar{
+    flex-direction: column;
+}
+
+#home {
+    height: 568px;
+    padding: 2px 40px;
+}
+#home::before{
+    height: 549px;
+}
+#home p{
+    font-size: 0.9rem;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px
+
+}
+
+
+#services {
+    flex-direction: column;
+}
+
+#services .box img {
+    width: 121px;
+    display: block;
+    margin: auto;
+}
+#services .box {
+    background: #f2f2f2;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 28px;
+    margin: 21px auto;
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+#contact-box {
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.h-primary{
+    font-size: 30px;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
